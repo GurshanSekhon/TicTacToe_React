@@ -1,0 +1,43 @@
+.game {
+  text-align: center;
+  margin: 20px;
+}
+
+.board {
+  display: inline-block;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  background-color: #f0f0f0;
+  border: 1px solid #999;
+  margin: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+.winning {
+  background-color: yellow; /* Highlight winning squares */
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 20px;
+}
